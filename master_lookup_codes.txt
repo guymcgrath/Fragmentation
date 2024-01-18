@@ -1,0 +1,141 @@
+CODE	DESCRIPTION
+COUNTYNAME 	 County name
+ID_10km 	 Hexagon ID
+RAW 	 LPIS with simple spatial summary (multiplart). 
+INT 	 LPIS integrated to 20 metres (used for contiguity analysis)
+N Score 	 1 to 6 as per description. Count of instances of each scoring per herd_to_herd relationshup summarised by unit area
+OF_ALL 	 One Frag farm count - all farms
+OF_ACT 	 One Frag farm count - active farms (bovine herds with stock 2020/2021)
+M_CNT 	 Count of Multi-Frag farms - all farms
+M_SUM 	 Sum of Farm Fragments of Multi-Frag farms - all farms
+M_AV 	 Average number of Farm Fragments of Multi-Frag farms - all farms
+M_AVDSUM 	 Sum of the average distance between same-farm fragments of Multi_Frag farms - all farms
+M_AVD 	 Average of the average distance between same-farm fragments of Multi_Frag farms - all farms
+M_SMX 	 Sum of the maximum distance between same-farm fragments of Multi_Frag farms - all farms
+M_AMX 	 Average of the maximum distance between same-farm fragments of Multi_Frag farms - all farms
+M_CNTA 	 Count of Multi-Frag farms - active farms
+M_SUMA 	 Sum of Farm Fragments of Multi-Frag farms - active farms
+M_AVA 	 Average number of Farm Fragments of Multi-Frag farms - active farms
+M_AVDSMA 	 Sum of the average distance between same-farm fragments of Multi_Frag farms - active farms
+M_AVDA 	 Average of the average distance between same-farm fragments of Multi_Frag farms - active farms
+M_SMXA 	 Sum of the maximum distance between same-farm fragments of Multi_Frag farms - active farms
+M_AMXA 	 Average of the maximum distance between same-farm fragments of Multi_Frag farms - active farms
+CNT 	 Count of all farms
+SUM 	 Sum of all fragments for all farms
+AV 	 Average number of Farm Fragments of all farms
+AVDSUM 	 Sum of the average distance between same-farm fragments of all farms
+AVD 	 Average of the average distance between same-farm fragments of all farms
+SMX 	 Sum of the maximum distance between same-farm fragments of all farms
+AMX 	 Average of the maximum distance between same-farm fragments of all farms
+L100 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 100 metres for all farms
+L250 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 250 metres for all farms
+L500 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 500 metres for all farms
+L750 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 750 metres for all farms
+L1KM 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 1000 metres for all farms
+L1P5KM 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 1500 metres for all farms
+L2KM 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 2000 metres for all farms
+L2P5KM 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 2500 metres for all farms
+L3KM 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 3000 metres for all farms
+L3P5KM 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 3500 metres for all farms
+L4KM 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 4000 metres for all farms
+L4P5KM 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 4500 metres for all farms
+L5KM 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 5000 metres for all farms
+L6KM 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 6000 metres for all farms
+L7KM 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 7000 metres for all farms
+L8KM 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 8000 metres for all farms
+L9KM 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 9000 metres for all farms
+L10KM 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 10000 metres for all farms
+GR5KM 	 Count of farms with an Average of the maximum distance between same-farm fragments of greater than 5000 metres for all farms
+GR10KM 	 Count of farms with an Average of the maximum distance between same-farm fragments of greater than 10000 metres for all farms
+CNTA 	 Count of all active farms (bovine herds with stock 2020/2021)
+SUMA 	 Sum of all fragments for all active farms
+AVA 	 Average number of Farm Fragments of all active farms
+AVDSUMA 	 Sum of the average distance between same-farm fragments of active farms
+AVDA 	 Average of the average distance between same-farm fragments of active farms
+SMXA 	 Sum of the maximum distance between same-farm fragments of active farms
+AMXA 	 Average of the maximum distance between same-farm fragments of active farms
+L100A 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 100 metres for active farms
+L250A 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 250 metres for active farms
+L500A 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 500 metres for active farms
+L750A 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 750 metres for active farms
+L1KMA 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 1000 metres for active farms
+L1P5KMA 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 1500 metres for active farms
+L2KMA 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 2000 metres for active farms
+L2P5KMA 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 2500 metres for active farms
+L3KMA 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 3000 metres for active farms
+L3P5KMA 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 3500 metres for active farms
+L4KMA 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 4000 metres for active farms
+L4P5KMA 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 4500 metres for active farms
+L5KMA 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 5000 metres for active farms
+L6KMA 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 6000 metres for active farms
+L7KMA 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 7000 metres for active farms
+L8KMA 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 8000 metres for active farms
+L9KMA 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 9000 metres for active farms
+L10KMA 	 Count of farms with an Average of the maximum distance between same-farm fragments of less than 10000 metres for active farms
+GR5KMA 	 Count of farms with an Average of the maximum distance between same-farm fragments of greater than 5000 metres for active farms
+GR10KMA 	 Count of farms with an Average of the maximum distance between same-farm fragments of greater than 10000 metres for active farms
+PMF 	 M_CNTA/CNTA*100 (percentage active multi-frament farms to all active farms)
+P100 	 L100A/CNTA*100 (percentage active multi-frament farms to all active farms with average max distance of less than 100 metres)
+P250 	 L250A/CNTA*100 (percentage active multi-frament farms to all active farms with average max distance of less than 250 metres)
+P500 	 L500A/CNTA*100 (percentage active multi-frament farms to all active farms with average max distance of less than 500 metres)
+P750 	 L750A/CNTA*100 (percentage active multi-frament farms to all active farms with average max distance of less than 750 metres)
+P1km 	 L1KMA/CNTA*100 (percentage active multi-frament farms to all active farms with average max distance of less than 1000 metres)
+P5km 	 L5KMA/CNTA*100 (percentage active multi-frament farms to all active farms with average max distance of less than 5000 metres)
+P10km 	 L10KMA/CNTA*100 (percentage active multi-frament farms to all active farms with average max distance of less than 10000 metres)
+A_COUNT 	 Count of active herds
+A_ARAW 	 Average number of neighbours between active herds and all herds from RAW LPIS
+A_SRAW 	 Sum of neighbours between active herds and all herds from RAW LPIS
+A_AINT 	 Average number of neighbours between active herds and all herds from INTEGRATED LPIS @ 20m
+A_SINT 	 Sum of neighbours between active herds and all herds from INTEGRATED LPIS @ 20m
+A_AN1 	 Average number of neighbours with N_Score of 1 of active herds and all herds
+A_SN1 	 Sum of neighbours with N_Score of 1 of active herds and all herds
+A_AN2 	 Average number of neighbours with N_Score of 2 of active herds and all herds
+A_SN2 	 Sum of neighbours with N_Score of 2 of active herds and all herds
+A_AN3 	 Average number of neighbours with N_Score of 3 of active herds and all herds
+A_SN3 	 Sum of neighbours with N_Score of 3 of active herds and all herds
+A_AN4 	 Average number of neighbours with N_Score of 4 of active herds and all herds
+A_SN4 	 Sum of neighbours with N_Score of 4 of active herds and all herds
+A_AN5 	 Average number of neighbours with N_Score of 5 of active herds and all herds
+A_SN5 	 Sum of neighbours with N_Score of 5 of active herds and all herds
+A_AN6 	 Average number of neighbours with N_Score of 6 of active herds and all herds
+A_SN6 	 Sum of neighbours with N_Score of 6 of active herds and all herds
+AA_COUNT 	 Count of active herds with an active neighbour
+AA_AA2A 	 Count of the number of active herds to active herd neighbour fragment contacts
+AA_SA2A 	 Sum of the number of active herds to active herd neighbour fragment contacts
+AA_ARAW 	 Average number of neighbours between active herds and other active herds from RAW LPIS
+AA_SRAW 	 Sum of neighbours between active herds and other active herds from RAW LPIS
+AA_AINT 	 Average number of neighbours between active herds other active herds from INTEGRATED LPIS @ 20m
+AA_SINT 	 Sum of neighbours between active herds and other active herds from INTEGRATED LPIS @ 20m
+AA_AN1 	 Average number of neighbours with N_Score of 1 of active herds to active herds
+AA_SN1 	 Sum of neighbours with N_Score of 1 of active herds to active herds
+AA_AN2 	 Average number of neighbours with N_Score of 2 of active herds to active herds
+AA_SN2 	 Sum of neighbours with N_Score of 2 of active herds to active herds
+AA_AN3 	 Average number of neighbours with N_Score of 3 of active herds to active herds
+AA_SN3 	 Sum of neighbours with N_Score of 3 of active herds to active herds
+AA_AN4 	 Average number of neighbours with N_Score of 4 of active herds to active herds
+AA_SN4 	 Sum of neighbours with N_Score of 4 of active herds to active herds
+AA_AN5 	 Average number of neighbours with N_Score of 5 of active herds to active herds
+AA_SN5 	 Sum of neighbours with N_Score of 5 of active herds to active herds
+AA_AN6 	 Average number of neighbours with N_Score of 6 of active herds to active herds
+AA_SN6 	 Sum of neighbours with N_Score of 6 of active herds to active herds
+CCOUNT 	 Count of active herds
+ARAW 	 Average number of neighbours between all herds from RAW LPIS
+SRAW 	 Sum of neighbours between all herds from RAW LPIS
+AINT 	 Average number of neighbours between all herds from INTEGRATED LPIS @ 20m
+SINT 	 Sum of neighbours between all herds from INTEGRATED LPIS @ 20m
+AN1 	 Average number of neighbours with N_Score of 1 of all herds
+SN1 	 Sum of neighbours with N_Score of 1 of all herds
+AN2 	 Average number of neighbours with N_Score of 2 of all herds
+SN2 	 Sum of neighbours with N_Score of 2 of all herds
+AN3 	 Average number of neighbours with N_Score of 3 of all herds
+SN3 	 Sum of neighbours with N_Score of 3 of all herds
+AN4 	 Average number of neighbours with N_Score of 4 of all herds
+SN4 	 Sum of neighbours with N_Score of 4 of all herds
+AN5 	 Average number of neighbours with N_Score of 5 of all herds
+SN5 	 Sum of neighbours with N_Score of 5 of all herds
+AN6 	 Average number of neighbours with N_Score of 6 of all herds
+SN6 	 Sum of neighbours with N_Score of 6 of all herds
+FS_C 	 Average fragment size per county of all herds
+FSA_C 	 Average fragment size per county of active herds
+FS_H 	 Average fragment size per hexagon of all herds
+FSA_H 	 Average fragment size per hexagon of active herds
